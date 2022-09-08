@@ -1,0 +1,125 @@
+body {
+    width: 100%;
+    background-color: #fbfef9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #435058;
+  }
+  #logo {
+    width: 3rem;
+  }
+  .container{
+    margin-top: 10em;
+  }
+  #carusel{
+      display: flex;
+      justify-content: flex-start;
+      height: auto;
+      width: 100%;
+  }
+  .para{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+  }
+  .slide{
+    width: 100%;
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    opacity: 0.8;
+    transition: .2s;
+   
+    border-radius: 15px
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    opacity: 1;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(201, 200, 200);
+    opacity: 0.5;
+  }
+  .sidenav {
+    height: 10em; 
+    width: 3em;
+    position: fixed; 
+    z-index: 1;
+    top: 40; 
+    left: 0;
+    background-color: rgb(131, 131, 131); 
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    opacity: .7;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .sidenav a {
+    
+    text-decoration: none;
+    
+    
+  }
+  .icon{
+    font-size: 20px;
+    color: black;
+    transition: .3s;
+  }
+  #facebook:hover{
+    color:	#3b5998
+  }
+  #reddit:hover{
+    color: orangered;
+  }
+  #ig:hover{
+    color: pink;
+  
+  }
+  .poluare{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    
+  }
+  .listRow{
+    margin-top: 5em;
+  }
+  .poluare p{
+    font-size: 1.5em;
+  }
+  #reutilizeaza{
+    width: 100%;
+    height: auto;
+  }
+  .row{
+    margin-top: 5em;
+  }
+  #listaOrdonataIntro{
+    display: flex;
+    justify-content: center;
+  }
+  ol li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3em;
+    
+  }
+.brand{
+  width: 65%;
+  height: auto;
+}
+#ultimulParagraf{
+  
+  text-align: center;
+}

@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    background-color: #fbfef9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #435058;
+  }
+  #logo {
+    width: 3rem;
+  }
+  .container{
+    margin-top: 10em;
+  }
+
+  .sidenav {
+    height: 10em; 
+    width: 3em;
+    position: fixed; 
+    z-index: 1;
+    top: 40; 
+    left: 0;
+    background-color: rgb(131, 131, 131); 
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    opacity: .7;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .sidenav a {
+    
+    text-decoration: none;
+    
+    
+  }
+  .icon{
+    font-size: 20px;
+    color: black;
+    transition: .3s;
+  }
+  #facebook:hover{
+    color:	#3b5998
+  }
+  #reddit:hover{
+    color: orangered;
+  }
+  #ig:hover{
+    color: pink;
+  
+  }
+  .row{
+    margin-top: 5em;
+  }
+  #intro{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+  }
+  #intro img{
+    width: 100%;
+    height: auto;
+    
+  }
+  #caseta{
+   
+    display: flex;
+    text-align:center ;
+    justify-content: center;
+   
+  }
+  #lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+  }
+  #slideshow{
+    width: 100%;
+  }
+  .imagineSlideshow{
+    width: 100%;
+    height: auto;
+  }
+  #tabel{
+    text-align: center;
+  }
+  .imagineTabel{
+    max-width: 100%;
+    height: auto;
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    opacity: 0.8;
+    transition: .2s;
+   
+    border-radius: 15px
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    opacity: 1;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(201, 200, 200);
+    opacity: 0.5;
+  }
